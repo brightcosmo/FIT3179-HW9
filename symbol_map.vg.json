@@ -39,8 +39,10 @@
           "field": "Tree Cover Loss (%)",
           "type": "quantitative",
           "scale": {
-            "domain": [-40, 0, 40],
-            "range": ["blue", "white", "red"]
+            "scheme": "redblue",
+            "reverse": true,
+            "domain": [-5, 0, 40],
+            "zero": true
           }
         },
         "tooltip": [
