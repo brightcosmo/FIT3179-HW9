@@ -41,7 +41,7 @@
           "scale": {
             "scheme": "redblue",
             "reverse": true,
-            "domain": [-0.05, 0, 0.4],
+            "domain": [-5, 0, 40],
             "zero": true
           }
         },
