@@ -1,20 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Net change in tree cover from 2000-2022 in Malaysia",
+  "title": "Net change in tree cover in Malaysia (2000-2022)",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
-  "background": "skyblue",
   "config": {
     "view": {
-       "stroke": "transparent"
+      "stroke": "transparent"
     }
   },
   "layer": [
     {
       "data": {
           "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
-          "format": {"type": "topojson", "feature": "states"}
+          "format": {"type": "topojson", "feature": "states"},
+          "background": "skyblue"
       },
       "transform": [
         {
@@ -47,7 +47,7 @@
         },
         "tooltip": [
           {"field": "id", "type": "nominal", "title": "State"},
-          {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "% loss"}
+          {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "% loss", "format": ".2%"}
         ]
       }
   },
