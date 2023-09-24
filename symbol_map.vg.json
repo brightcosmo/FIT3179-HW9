@@ -8,7 +8,7 @@
   "layer": [
     {
       "data": {
-          "url": "https://github.com/brightcosmo/FIT3179-HW9/blob/4219e1ff74af1c298b5802017ecd851a1e03fc3e/data/malaysia-states.topojson",
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
           "format": {"type": "topojson", "feature": "states"}
       },
       "transform": [
@@ -16,7 +16,7 @@
           "lookup": "id",
           "from": {
             "data": {
-              "url": "https://github.com/brightcosmo/FIT3179-HW9/blob/d8ab6210eaa9088f914de95330b090b4002a240a/data/Country_carbon_data.csv"
+              "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/Country_carbon_data.csv"
             },
             "key": "subnational1",
             "fields": ["change2"]
@@ -43,7 +43,7 @@
   },
   {
       "data": {
-          "url": "https://github.com/brightcosmo/FIT3179-HW9/blob/main/data/ne_110m_graticules_5.json",
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/ne_110m_graticules_5.json",
           "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
       },
       "mark": {"type": "geoshape", "fill": null, "stroke": "white"}
