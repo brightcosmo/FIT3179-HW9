@@ -39,7 +39,7 @@
           "field": "Tree Cover Loss",
           "type": "quantitative",
           "scale": {
-            "domain": [-5, 0, 40],
+            "domain": [-40, 0, 40],
             "range": ["blue", "white", "red"]
           }
         },
