@@ -27,7 +27,7 @@
             "fields": ["change"]
           }
         },
-        {"calculate": "datum.change", "as": "Tree Cover Loss (%)"}
+        {"calculate": "datum.change / 100", "as": "Tree Cover Loss (%)"}
       ],
       "mark": {
           "type": "geoshape",
