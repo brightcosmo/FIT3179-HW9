@@ -8,6 +8,13 @@
   "layer": [
     {
       "data": {
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/ne_110m_graticules_5.json",
+          "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "white", "strokeWidth": 0.5}
+    },
+    {
+      "data": {
           "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
           "format": {"type": "topojson", "feature": "states"}
       },
@@ -40,13 +47,6 @@
           {"field": "Tree Cover Loss", "type": "quantitative", "title": "% loss"}
         ]
       }
-  },
-  {
-      "data": {
-          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/ne_110m_graticules_5.json",
-          "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
-      },
-      "mark": {"type": "geoshape", "fill": null, "stroke": "white"}
   }
   ]
 }
