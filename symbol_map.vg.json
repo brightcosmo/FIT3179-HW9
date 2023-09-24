@@ -41,7 +41,7 @@
           "scale": {
             "domain": [-5, 0, 40],
             "range": ["blue", "white", "red"]
-          },
+          }
         },
         "tooltip": [
           {"field": "id", "type": "nominal", "title": "State"},
