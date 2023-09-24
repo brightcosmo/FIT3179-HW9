@@ -10,11 +10,11 @@
     }
   },
   "layer": [
+    {"mark": {"type": "geoshape", "fill": "skyblue"}},
     {
       "data": {
           "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
-          "format": {"type": "topojson", "feature": "states"},
-          "background": "skyblue"
+          "format": {"type": "topojson", "feature": "states"}
       },
       "transform": [
         {
