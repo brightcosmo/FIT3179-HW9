@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "../data/malaysia-states.topojson",
+    "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
     "format": {"type": "topojson", "feature": "states"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "id",
       "from": {
         "data": {
-          "url": "../data/Country_carbon_data.csv"
+          "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/Country_carbon_data.csv"
         },
         "key": "subnational1",
         "fields": ["change2"]
