@@ -38,7 +38,12 @@
         "color": {
           "field": "Tree Cover Loss",
           "type": "quantitative",
-          "scale": {"type": "linear", "scheme": "greens", "reverse": false}
+          "scale": {
+            "scheme": "redblue",
+            "reverse": true,
+            "domain": [-5, 40],
+            "zero": true
+          }
         },
         "tooltip": [
           {"field": "id", "type": "nominal", "title": "State"},
