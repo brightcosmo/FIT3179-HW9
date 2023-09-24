@@ -24,10 +24,10 @@
               "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/Country_carbon_data.csv"
             },
             "key": "subnational1",
-            "fields": ["change"]
+            "fields": ["change2"]
           }
         },
-        {"calculate": "datum.change", "as": "Tree Cover Loss (%)"}
+        {"calculate": "datum.change2", "as": "Tree Cover Loss (%)"}
       ],
       "mark": {
           "type": "geoshape",
