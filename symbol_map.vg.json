@@ -8,6 +8,7 @@
     "url": "https://raw.githubusercontent.com/brightcosmo/FIT3179-HW9/main/data/malaysia-states.topojson",
     "format": {"type": "topojson", "feature": "states"}
   },
+  "background": "skyblue",
   "transform": [
     {
       "lookup": "id",
