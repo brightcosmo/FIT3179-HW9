@@ -41,13 +41,13 @@
           "scale": {
             "scheme": "redblue",
             "reverse": true,
-            "domain": [-0.05, 0, 0.4],
+            "domain": [-5, 0, 40],
             "zero": true
           }
         },
         "tooltip": [
           {"field": "id", "type": "nominal", "title": "State"},
-          {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "% loss", "format": ".2%"}
+          {"field": "Tree Cover Loss (%)", "type": "quantitative", "title": "Tree cover loss (%)"}
         ]
       }
   },
